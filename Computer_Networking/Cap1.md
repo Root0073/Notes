@@ -79,7 +79,11 @@ IP使用头部校验来减少将数据报传输到错误目的地的可能性
 IP允许在数据报头部增加新字段
 
 IPv4是32字节，IPv6是128字节
+IP头部中最重要的字段是目标IP地址，源IP地址和协议id（告诉我们数据字段中包含的内容）
+
 ## Why is the IP service so simple?
 为了保持网络的简单，傻瓜化和最小化
 IP对链路层做了非常少的假设，对其几乎没有期望
+
+# A Day in the Life of a Packet
 
